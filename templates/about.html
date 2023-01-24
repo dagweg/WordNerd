@@ -1,0 +1,61 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+    <title>About</title>
+    <style>
+        p
+        {
+            color: white;
+            font-family: 'Roboto';
+            font-weight: normal !important;
+            
+        }
+        .blue
+        {
+            color: #79ff58;
+        }
+        .red
+        {
+            color: #fffb00;
+        }
+        .yellow
+        {
+            color: #ff9797;
+        }
+        .green
+        {
+            color: #00e1ff;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+
+    <div>
+        <div style="display:flex; justify-content:center;">
+            <img style="scale:0.2; position:absolute; margin-top:3rem;" src="/static/Content/confetti-gif.webp">
+        </div>
+        <div  class="centered" style="display: block; margin-left:auto; margin-right:auto; margin-top:45vh; padding-top:7rem; padding-bottom:5rem; padding-left:10rem; padding-right:10rem; background-color:rgb(43, 60, 75); margin-top:20%; box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.19);">
+            <p>
+                Praise <span style="font-family: 'rubik'; font-weight: 600;">YAH!</span>
+            </p>
+            <p style=" font-family: Roboto; font-weight:100 !important;">This website was made as a final-project for HarvardX CS50 online course which was offered through EDx.  
+                Powered by: HTML | JavaScript | CSS | Bootstrap | Python | Flask <br>
+                This is CS50!
+            </p>
+            <br><br>
+            <hr class="hr " style="color: white;">
+            <p>
+                Contact Email: dagtef2@gmail.com
+            </p>
+            <hr class="hr " style="color: white;">
+            <br><br><br>
+            <p>
+                &#169 2022 WordNerd&#8482 made by <span style="font-family: 'rubik'; ">Dagmawi Wegayehu. </span>All rights reserved.
+            </p>
+        </div>
+    </div>
+    
+    
+
+{% endblock %}
